@@ -2,16 +2,20 @@
 % Please edit documentation in R/Cols_NA.R
 \name{cols_NAs}
 \alias{cols_NAs}
-\title{COls_NA}
+\title{Counts NA values by column}
 \usage{
 cols_NAs(x)
 }
 \arguments{
-\item{x}{}
+\item{x}{A matrix or dataframe.}
 }
 \value{
-
+The NA values by column from dataset \code{x}
 }
 \description{
-COls_NA
+Counts NA values by column
+}
+\examples{
+cols_NAs(iris)
+
 }
